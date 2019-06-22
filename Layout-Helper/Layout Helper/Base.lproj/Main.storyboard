@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rOZ-M5-6VR">
-    <device id="retina6_5" orientation="portrait">
+    <device id="retina5_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,20 +14,20 @@
             <objects>
                 <viewController id="rOZ-M5-6VR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qbG-Z5-q9D">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="iwd-W9-oTu">
-                                <rect key="frame" x="57" y="200" width="300" height="150"/>
+                                <rect key="frame" x="98" y="130" width="300" height="110"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="yUC-eg-CKO">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="40"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="zcT-bp-dVY">
-                                        <rect key="frame" x="0.0" y="90" width="300" height="60"/>
+                                        <rect key="frame" x="0.0" y="70" width="300" height="40"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -45,17 +45,17 @@
                                 <variation key="heightClass=regular-widthClass=compact" spacing="30"/>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I0V-jL-viL" userLabel="bottomView">
-                                <rect key="frame" x="83" y="541.66666666666663" width="250" height="60"/>
+                                <rect key="frame" x="406.66666666666674" y="150" width="323" height="77"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tL-G9-fUq">
-                                        <rect key="frame" x="41.666666666666671" y="44" width="167" height="6"/>
+                                        <rect key="frame" x="78" y="44" width="167" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Create a new account">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRE-4Z-Lxz">
-                                        <rect key="frame" x="60.666666666666657" y="7.9999999999999982" width="128.33333333333334" height="20.333333333333329"/>
+                                        <rect key="frame" x="97.000000000000014" y="7.9999999999999982" width="128.33333333333337" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -70,6 +70,7 @@
                                     </constraint>
                                     <constraint firstItem="7tL-G9-fUq" firstAttribute="centerX" secondItem="I0V-jL-viL" secondAttribute="centerX" id="RuH-Pg-C4g"/>
                                     <constraint firstAttribute="width" constant="323" id="V7V-ug-eAJ">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="280"/>
                                         <variation key="heightClass=regular-widthClass=compact" constant="250"/>
                                     </constraint>
                                     <constraint firstAttribute="height" constant="77" id="jHS-2P-S5p">
@@ -80,7 +81,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soi-oG-OJU">
-                                <rect key="frame" x="148.66666666666666" y="390" width="116.99999999999997" height="75"/>
+                                <rect key="frame" x="189.66666666666666" y="280" width="116.99999999999997" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="29"/>
                                 <inset key="contentEdgeInsets" minX="18" minY="20" maxX="16" maxY="20"/>
@@ -94,7 +95,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login to your account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybZ-2g-JaC">
-                                <rect key="frame" x="61.333333333333343" y="125.33333333333333" width="291.66666666666663" height="34.666666666666671"/>
+                                <rect key="frame" x="102.33333333333334" y="55.333333333333343" width="291.66666666666663" height="34.666666666666657"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -103,6 +104,7 @@
                         <color key="backgroundColor" red="0.64705882349999999" green="0.87058823529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="soi-oG-OJU" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" id="2mb-8R-vzd">
+                                <variation key="heightClass=compact-widthClass=compact" constant="-120"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="-120"/>
                             </constraint>
                             <constraint firstAttribute="top" secondItem="I0V-jL-viL" secondAttribute="top" multiplier="1.2" constant="-650" id="8Y0-0H-AVA" customClass="NSLayoutHelper" customModule="Layout_Helper" customModuleProvider="target">
@@ -126,6 +128,7 @@
                                         <real key="value" value="-760"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=compact-widthClass=compact" constant="-180"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="-180"/>
                             </constraint>
                             <constraint firstItem="soi-oG-OJU" firstAttribute="top" secondItem="iwd-W9-oTu" secondAttribute="bottom" constant="40" id="ClO-9c-3ez" customClass="NSLayoutHelper" customModule="Layout_Helper" customModuleProvider="target">
@@ -142,6 +145,7 @@
                                 </userDefinedRuntimeAttributes>
                             </constraint>
                             <constraint firstItem="ybZ-2g-JaC" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" id="Gnw-qj-wmG">
+                                <variation key="heightClass=compact-widthClass=compact" constant="-120"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="-120"/>
                             </constraint>
                             <constraint firstItem="iwd-W9-oTu" firstAttribute="top" secondItem="qbG-Z5-q9D" secondAttribute="top" constant="200" id="Hsh-V7-ekx" customClass="NSLayoutHelper" customModule="Layout_Helper" customModuleProvider="target">
@@ -165,6 +169,7 @@
                                         <real key="value" value="200"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=compact-widthClass=compact" constant="140"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="130"/>
                             </constraint>
                             <constraint firstItem="iwd-W9-oTu" firstAttribute="top" secondItem="ybZ-2g-JaC" secondAttribute="bottom" constant="40" id="MZw-Ne-NCl" customClass="NSLayoutHelper" customModule="Layout_Helper" customModuleProvider="target">
@@ -177,14 +182,26 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </constraint>
-                            <constraint firstItem="I0V-jL-viL" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" constant="1" id="Zej-oL-4Ra">
-                                <variation key="heightClass=compact-widthClass=regular" constant="250"/>
+                            <constraint firstItem="I0V-jL-viL" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" constant="1" id="Zej-oL-4Ra" customClass="NSLayoutHelper" customModule="Layout_Helper" customModuleProvider="target">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhone8Plus">
+                                        <real key="value" value="200"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=compact-widthClass=compact" constant="220"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="200"/>
                             </constraint>
                             <constraint firstItem="iwd-W9-oTu" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" id="tKp-fr-HJJ">
+                                <variation key="heightClass=compact-widthClass=compact" constant="-120"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="-120"/>
                             </constraint>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tKf-hf-1oM"/>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="Zej-oL-4Ra"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bkk-pw-Ne4" userLabel="First Responder" sceneMemberID="firstResponder"/>
