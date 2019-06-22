@@ -47,12 +47,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I0V-jL-viL" userLabel="bottomView">
                                 <rect key="frame" x="83" y="541.66666666666663" width="250" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRE-4Z-Lxz">
-                                        <rect key="frame" x="61" y="5" width="128.33333333333334" height="20.333333333333332"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tL-G9-fUq">
                                         <rect key="frame" x="41.666666666666671" y="44" width="167" height="6"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -60,21 +54,29 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRE-4Z-Lxz">
+                                        <rect key="frame" x="60.666666666666657" y="7.9999999999999982" width="128.33333333333334" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.64705882349999999" green="0.87058823529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="JRE-4Z-Lxz" firstAttribute="centerX" secondItem="I0V-jL-viL" secondAttribute="centerX" id="H5y-KV-CL8"/>
+                                    <constraint firstItem="JRE-4Z-Lxz" firstAttribute="top" secondItem="I0V-jL-viL" secondAttribute="top" constant="8" id="5y2-7t-9Wo"/>
                                     <constraint firstItem="7tL-G9-fUq" firstAttribute="top" secondItem="I0V-jL-viL" secondAttribute="top" constant="44" id="PZc-XA-Bzf"/>
-                                    <constraint firstAttribute="bottom" secondItem="7tL-G9-fUq" secondAttribute="bottom" constant="10" id="RX3-J4-bhn"/>
+                                    <constraint firstAttribute="bottom" secondItem="7tL-G9-fUq" secondAttribute="bottom" constant="10" id="RX3-J4-bhn">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
+                                    </constraint>
                                     <constraint firstItem="7tL-G9-fUq" firstAttribute="centerX" secondItem="I0V-jL-viL" secondAttribute="centerX" id="RuH-Pg-C4g"/>
-                                    <constraint firstAttribute="width" constant="322" id="V7V-ug-eAJ">
+                                    <constraint firstAttribute="width" constant="323" id="V7V-ug-eAJ">
                                         <variation key="heightClass=regular-widthClass=compact" constant="250"/>
                                     </constraint>
-                                    <constraint firstItem="JRE-4Z-Lxz" firstAttribute="top" secondItem="I0V-jL-viL" secondAttribute="top" constant="5" id="cGO-re-SEJ"/>
-                                    <constraint firstAttribute="height" constant="38.000000000000057" id="jHS-2P-S5p">
+                                    <constraint firstAttribute="height" constant="77" id="jHS-2P-S5p">
                                         <variation key="heightClass=regular-widthClass=compact" constant="60"/>
                                     </constraint>
                                     <constraint firstItem="7tL-G9-fUq" firstAttribute="centerX" secondItem="I0V-jL-viL" secondAttribute="centerX" id="s4b-mj-Fe9"/>
+                                    <constraint firstItem="JRE-4Z-Lxz" firstAttribute="centerX" secondItem="I0V-jL-viL" secondAttribute="centerX" constant="-0.33333333333331439" id="z8g-uZ-hbo"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soi-oG-OJU">
@@ -100,7 +102,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.64705882349999999" green="0.87058823529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="soi-oG-OJU" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" id="2mb-8R-vzd"/>
+                            <constraint firstItem="soi-oG-OJU" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" id="2mb-8R-vzd">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-120"/>
+                            </constraint>
                             <constraint firstAttribute="top" secondItem="I0V-jL-viL" secondAttribute="top" multiplier="1.2" constant="-650" id="8Y0-0H-AVA" customClass="NSLayoutHelper" customModule="Layout_Helper" customModuleProvider="target">
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="iPhoneSE">
@@ -122,6 +126,7 @@
                                         <real key="value" value="-760"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=compact-widthClass=regular" constant="-180"/>
                             </constraint>
                             <constraint firstItem="soi-oG-OJU" firstAttribute="top" secondItem="iwd-W9-oTu" secondAttribute="bottom" constant="40" id="ClO-9c-3ez" customClass="NSLayoutHelper" customModule="Layout_Helper" customModuleProvider="target">
                                 <userDefinedRuntimeAttributes>
@@ -136,7 +141,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </constraint>
-                            <constraint firstItem="ybZ-2g-JaC" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" id="Gnw-qj-wmG"/>
+                            <constraint firstItem="ybZ-2g-JaC" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" id="Gnw-qj-wmG">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-120"/>
+                            </constraint>
                             <constraint firstItem="iwd-W9-oTu" firstAttribute="top" secondItem="qbG-Z5-q9D" secondAttribute="top" constant="200" id="Hsh-V7-ekx" customClass="NSLayoutHelper" customModule="Layout_Helper" customModuleProvider="target">
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="iPhoneSE">
@@ -158,6 +165,7 @@
                                         <real key="value" value="200"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=compact-widthClass=regular" constant="130"/>
                             </constraint>
                             <constraint firstItem="iwd-W9-oTu" firstAttribute="top" secondItem="ybZ-2g-JaC" secondAttribute="bottom" constant="40" id="MZw-Ne-NCl" customClass="NSLayoutHelper" customModule="Layout_Helper" customModuleProvider="target">
                                 <userDefinedRuntimeAttributes>
@@ -169,15 +177,19 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </constraint>
-                            <constraint firstItem="I0V-jL-viL" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" constant="1" id="Zej-oL-4Ra"/>
-                            <constraint firstItem="iwd-W9-oTu" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" id="tKp-fr-HJJ"/>
+                            <constraint firstItem="I0V-jL-viL" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" constant="1" id="Zej-oL-4Ra">
+                                <variation key="heightClass=compact-widthClass=regular" constant="250"/>
+                            </constraint>
+                            <constraint firstItem="iwd-W9-oTu" firstAttribute="centerX" secondItem="qbG-Z5-q9D" secondAttribute="centerX" id="tKp-fr-HJJ">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-120"/>
+                            </constraint>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tKf-hf-1oM"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bkk-pw-Ne4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1021.6" y="-399.85007496251876"/>
+            <point key="canvasLocation" x="1021.2053571428571" y="-400.00000000000006"/>
         </scene>
     </scenes>
 </document>
