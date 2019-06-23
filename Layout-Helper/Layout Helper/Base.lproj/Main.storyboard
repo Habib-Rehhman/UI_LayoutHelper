@@ -13,196 +13,82 @@
         <scene sceneID="aSC-fZ-B0R">
             <objects>
                 <viewController id="rOZ-M5-6VR" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iK1-2G-BiS">
+                    <view key="view" contentMode="scaleToFill" id="s48-OP-K4y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vZR-jb-mFF">
-                                <rect key="frame" x="-45" y="0.0" width="509" height="586"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FXm-dG-mXA">
-                                        <rect key="frame" x="52.666666666666657" y="131.66666666666663" width="398.33333333333337" height="250"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zcA-Zq-hvJ" userLabel="HorizontalStack">
-                                                <rect key="frame" x="0.0" y="0.0" width="398.33333333333331" height="76.666666666666671"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkb-R8-pi0">
-                                                        <rect key="frame" x="0.0" y="0.0" width="119.66666666666667" height="76.666666666666671"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="عربى">
-                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="7"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exh-K1-cvh">
-                                                        <rect key="frame" x="139.66666666666669" y="0.0" width="119.33333333333331" height="76.666666666666671"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="عربى">
-                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="7"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Boh-Qs-PbE">
-                                                        <rect key="frame" x="279" y="0.0" width="119.33333333333331" height="76.666666666666671"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="عربى">
-                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6XJ-Qs-Cea" userLabel="HorizontalStack">
-                                                <rect key="frame" x="0.0" y="86.666666666666686" width="398.33333333333331" height="76.666666666666686"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oae-nc-08Z">
-                                                        <rect key="frame" x="0.0" y="0.0" width="119.66666666666667" height="76.666666666666671"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="عربى">
-                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="7"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2W-Ic-lZ6">
-                                                        <rect key="frame" x="139.66666666666669" y="0.0" width="119.33333333333331" height="76.666666666666671"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="عربى">
-                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="7"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bkg-pv-pZL">
-                                                        <rect key="frame" x="279" y="0.0" width="119.33333333333331" height="76.666666666666671"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="عربى">
-                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="7"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="NSj-rJ-dVy" userLabel="HorizontalStack">
-                                                <rect key="frame" x="0.0" y="173.33333333333334" width="398.33333333333331" height="76.666666666666657"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfq-WR-TD7">
-                                                        <rect key="frame" x="0.0" y="0.0" width="119.66666666666667" height="76.666666666666671"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="عربى">
-                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="7"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5BH-MJ-Djl">
-                                                        <rect key="frame" x="139.66666666666669" y="0.0" width="119.33333333333331" height="76.666666666666671"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="عربى">
-                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="7"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHA-hm-fbQ">
-                                                        <rect key="frame" x="279" y="0.0" width="119.33333333333331" height="76.666666666666671"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="عربى">
-                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="7"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="250" id="Fwq-OI-FjF">
-                                                <variation key="heightClass=compact-widthClass=compact" constant="130"/>
-                                                <variation key="heightClass=compact-widthClass=regular" constant="180"/>
-                                            </constraint>
-                                        </constraints>
-                                    </stackView>
-                                </subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oY-wG-KIO">
+                                <rect key="frame" x="27" y="267" width="352" height="258"/>
                                 <color key="backgroundColor" red="0.64705882349999999" green="0.87058823529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="FXm-dG-mXA" firstAttribute="leading" secondItem="vZR-jb-mFF" secondAttribute="leadingMargin" multiplier="0.1" constant="52" id="3Qv-VY-ve3">
-                                        <variation key="heightClass=compact-widthClass=compact" constant="120"/>
-                                        <variation key="heightClass=compact-widthClass=regular" constant="120"/>
-                                        <variation key="heightClass=regular-widthClass=regular" constant="150"/>
-                                    </constraint>
-                                    <constraint firstAttribute="trailingMargin" secondItem="FXm-dG-mXA" secondAttribute="trailing" constant="83" id="Ntv-ha-3rn">
-                                        <variation key="heightClass=compact-widthClass=compact" constant="80"/>
-                                        <variation key="heightClass=compact-widthClass=regular" constant="120"/>
-                                        <variation key="heightClass=regular-widthClass=compact" constant="50"/>
-                                        <variation key="heightClass=regular-widthClass=regular" constant="150"/>
-                                    </constraint>
-                                    <constraint firstAttribute="centerY" secondItem="FXm-dG-mXA" secondAttribute="top" multiplier="2" constant="30" id="WZ6-U5-mpJ">
-                                        <variation key="heightClass=compact-widthClass=compact" constant="20"/>
-                                    </constraint>
+                                    <constraint firstAttribute="height" constant="258" id="35z-yp-IXn"/>
                                 </constraints>
-                            </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stop-Motion" translatesAutoresizingMaskIntoConstraints="NO" id="N83-4a-q27">
-                                <rect key="frame" x="67.666666666666686" y="657.33333333333348" width="268" height="128.00000000000011"/>
+                                <string key="text">We have sent a verification link to abc@xyz.com.Please click the link to verify your email address. Once you have verified your email tap below to signin to your account.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8tb-NS-Fdt">
+                                <rect key="frame" x="142" y="566" width="130" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="eKj-wg-Uy0">
-                                        <variation key="heightClass=compact-widthClass=compact" constant="99"/>
-                                        <variation key="heightClass=compact-widthClass=regular" constant="101"/>
-                                    </constraint>
+                                    <constraint firstAttribute="height" constant="69" id="DQe-k8-WV1"/>
+                                    <constraint firstAttribute="width" constant="130" id="LR8-8F-YZC"/>
                                 </constraints>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="20"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify your email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBS-Jz-m21">
+                                <rect key="frame" x="45" y="128" width="324" height="46.666666666666657"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Dok-tE-ijy">
+                                <rect key="frame" x="83.333333333333329" y="716.66666666666663" width="247.33333333333337" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Having some trouble?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRy-He-PXN">
+                                        <rect key="frame" x="0.0" y="0.0" width="166.33333333333334" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NT-r1-Rsn">
+                                        <rect key="frame" x="170.33333333333331" y="0.0" width="77" height="30"/>
+                                        <state key="normal" title="Contact Us">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="KFw-8V-ziV"/>
+                                    <constraint firstAttribute="width" constant="247.5" id="dJc-LM-x6s"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.64705882349999999" green="0.87058823529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Lmi-f1-gPQ" firstAttribute="trailing" secondItem="N83-4a-q27" secondAttribute="trailing" constant="78.5" id="1O1-8r-ewt"/>
-                            <constraint firstItem="N83-4a-q27" firstAttribute="leading" secondItem="Lmi-f1-gPQ" secondAttribute="leading" constant="67.5" id="BXa-tJ-yzu"/>
-                            <constraint firstItem="vZR-jb-mFF" firstAttribute="trailing" secondItem="Lmi-f1-gPQ" secondAttribute="trailing" constant="50" id="OCf-Fe-txj"/>
-                            <constraint firstItem="Lmi-f1-gPQ" firstAttribute="bottom" secondItem="vZR-jb-mFF" secondAttribute="bottom" multiplier="1.3" constant="100" id="XaB-AP-pgz">
-                                <variation key="heightClass=compact-widthClass=compact" constant="75"/>
-                            </constraint>
-                            <constraint firstItem="vZR-jb-mFF" firstAttribute="leading" secondItem="Lmi-f1-gPQ" secondAttribute="leading" constant="-45" id="heK-Tl-qcQ"/>
-                            <constraint firstItem="vZR-jb-mFF" firstAttribute="top" secondItem="iK1-2G-BiS" secondAttribute="top" id="mV3-fD-hBm"/>
-                            <constraint firstItem="N83-4a-q27" firstAttribute="top" secondItem="vZR-jb-mFF" secondAttribute="bottom" multiplier="1.05" constant="42" id="rfU-gt-bCx">
-                                <variation key="heightClass=compact-widthClass=compact" constant="13"/>
-                                <variation key="heightClass=compact-widthClass=regular" constant="23"/>
-                                <variation key="heightClass=regular-widthClass=regular" constant="42"/>
-                            </constraint>
+                            <constraint firstItem="Dok-tE-ijy" firstAttribute="top" secondItem="meH-ld-J0P" secondAttribute="centerY" multiplier="1.35" constant="105" id="2jg-b6-0Zq"/>
+                            <constraint firstItem="8tb-NS-Fdt" firstAttribute="centerX" secondItem="s48-OP-K4y" secondAttribute="centerX" id="DcL-qN-I3D"/>
+                            <constraint firstItem="meH-ld-J0P" firstAttribute="centerY" secondItem="jBS-Jz-m21" secondAttribute="bottom" multiplier="2" constant="104" id="Nxe-Jy-FyE"/>
+                            <constraint firstItem="jBS-Jz-m21" firstAttribute="centerX" secondItem="s48-OP-K4y" secondAttribute="centerX" id="Uaj-pP-MnQ"/>
+                            <constraint firstItem="3oY-wG-KIO" firstAttribute="leading" secondItem="meH-ld-J0P" secondAttribute="leading" constant="27" id="aQ2-NF-EVe"/>
+                            <constraint firstItem="8tb-NS-Fdt" firstAttribute="top" secondItem="meH-ld-J0P" secondAttribute="centerY" constant="113" id="cUe-PQ-sit"/>
+                            <constraint firstItem="Dok-tE-ijy" firstAttribute="centerX" secondItem="s48-OP-K4y" secondAttribute="centerX" id="gxA-kH-ANx"/>
+                            <constraint firstItem="jBS-Jz-m21" firstAttribute="leading" relation="lessThanOrEqual" secondItem="meH-ld-J0P" secondAttribute="leading" constant="45" id="h0a-c3-N4M"/>
+                            <constraint firstItem="3oY-wG-KIO" firstAttribute="trailing" secondItem="meH-ld-J0P" secondAttribute="trailing" constant="-35" id="pD8-Gy-uP7"/>
+                            <constraint firstItem="meH-ld-J0P" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="jBS-Jz-m21" secondAttribute="trailing" constant="45" id="uzW-eb-Xoj"/>
+                            <constraint firstItem="3oY-wG-KIO" firstAttribute="top" secondItem="meH-ld-J0P" secondAttribute="centerY" constant="-186" id="x5v-T4-E22"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Lmi-f1-gPQ"/>
+                        <viewLayoutGuide key="safeArea" id="meH-ld-J0P"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bkk-pw-Ne4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1325" y="-450"/>
+            <point key="canvasLocation" x="1324.6376811594205" y="-450"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Stop-Motion" width="953" height="501"/>
-    </resources>
 </document>
