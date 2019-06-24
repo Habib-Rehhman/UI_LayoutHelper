@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rOZ-M5-6VR">
-    <device id="retina6_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
+    <device id="ipad12_9rounded" orientation="portrait">
+        <adaptation id="splitview1_3"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="rOZ-M5-6VR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s48-OP-K4y">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Enter Your registered email address." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oY-wG-KIO">
-                                <rect key="frame" x="55.666666666666657" y="352" width="302.66666666666674" height="107"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Enter Your registered email address." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oY-wG-KIO">
+                                <rect key="frame" x="55.5" y="596" width="209" height="107"/>
                                 <color key="backgroundColor" red="0.64705882349999999" green="0.87058823529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="107" id="9U8-Ie-mUY"/>
@@ -27,7 +27,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8tb-NS-Fdt">
-                                <rect key="frame" x="142" y="553" width="130" height="48"/>
+                                <rect key="frame" x="95" y="785" width="130" height="48"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="DQe-k8-WV1">
@@ -44,7 +44,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password Recovery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBS-Jz-m21">
-                                <rect key="frame" x="45" y="270.33333333333331" width="324" height="40.666666666666686"/>
+                                <rect key="frame" x="5" y="437.5" width="310" height="41"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -53,16 +53,16 @@
                                 </variation>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Dok-tE-ijy">
-                                <rect key="frame" x="83.333333333333329" y="666.33333333333337" width="247.33333333333337" height="30"/>
+                                <rect key="frame" x="36.5" y="956.5" width="247.5" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Having some trouble?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRy-He-PXN">
-                                        <rect key="frame" x="0.0" y="0.0" width="166.33333333333334" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="166.5" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NT-r1-Rsn">
-                                        <rect key="frame" x="170.33333333333331" y="0.0" width="77" height="30"/>
+                                        <rect key="frame" x="170.5" y="0.0" width="77" height="30"/>
                                         <state key="normal" title="Contact Us">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -74,9 +74,11 @@
                                 </constraints>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tCw-j4-8PY">
-                                <rect key="frame" x="50" y="495.66666666666674" width="314" height="45"/>
+                                <rect key="frame" x="69" y="672.5" width="182" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="HUB-Qu-lI5"/>
+                                    <constraint firstAttribute="height" constant="45" id="HUB-Qu-lI5">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="46"/>
+                                    </constraint>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -90,33 +92,47 @@
                                 <variation key="heightClass=compact-widthClass=compact" constant="70"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="67"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="100"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="2"/>
                             </constraint>
-                            <constraint firstItem="tCw-j4-8PY" firstAttribute="leading" relation="lessThanOrEqual" secondItem="meH-ld-J0P" secondAttribute="leading" constant="100" id="36C-pw-GjB"/>
+                            <constraint firstItem="tCw-j4-8PY" firstAttribute="leading" relation="lessThanOrEqual" secondItem="s48-OP-K4y" secondAttribute="leading" constant="100" id="36C-pw-GjB">
+                                <variation key="heightClass=compact-widthClass=compact" constant="142"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="200"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="69"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="250"/>
+                            </constraint>
                             <constraint firstItem="8tb-NS-Fdt" firstAttribute="centerX" secondItem="s48-OP-K4y" secondAttribute="centerX" id="DcL-qN-I3D"/>
                             <constraint firstItem="meH-ld-J0P" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3oY-wG-KIO" secondAttribute="trailing" constant="55.669998168945312" id="HT8-CO-kvF"/>
-                            <constraint firstItem="tCw-j4-8PY" firstAttribute="bottom" secondItem="s48-OP-K4y" secondAttribute="centerY" multiplier="1.1" constant="48" id="MmP-3L-g9O"/>
-                            <constraint firstItem="meH-ld-J0P" firstAttribute="centerY" secondItem="jBS-Jz-m21" secondAttribute="bottom" multiplier="1.1" constant="111" id="Nxe-Jy-FyE">
-                                <variation key="heightClass=compact-widthClass=compact" constant="15"/>
-                                <variation key="heightClass=compact-widthClass=regular" constant="4"/>
+                            <constraint firstItem="tCw-j4-8PY" firstAttribute="bottom" secondItem="s48-OP-K4y" secondAttribute="centerY" multiplier="0.98" constant="48" id="MmP-3L-g9O">
+                                <variation key="heightClass=compact-widthClass=compact" constant="41"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="-50"/>
+                            </constraint>
+                            <constraint firstItem="meH-ld-J0P" firstAttribute="centerY" secondItem="jBS-Jz-m21" secondAttribute="bottom" multiplier="1.2" constant="111" id="Nxe-Jy-FyE">
+                                <variation key="heightClass=compact-widthClass=compact" constant="60"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="111"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="111"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="190"/>
                             </constraint>
                             <constraint firstItem="jBS-Jz-m21" firstAttribute="centerX" secondItem="s48-OP-K4y" secondAttribute="centerX" id="Uaj-pP-MnQ"/>
                             <constraint firstItem="tCw-j4-8PY" firstAttribute="centerX" secondItem="s48-OP-K4y" secondAttribute="centerX" id="WEp-aG-jvx"/>
                             <constraint firstItem="8tb-NS-Fdt" firstAttribute="top" secondItem="meH-ld-J0P" secondAttribute="centerY" constant="113" id="cUe-PQ-sit">
-                                <variation key="heightClass=compact-widthClass=compact" constant="80"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="71"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="44"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="100"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="-15"/>
                             </constraint>
                             <constraint firstItem="Dok-tE-ijy" firstAttribute="centerX" secondItem="s48-OP-K4y" secondAttribute="centerX" id="gxA-kH-ANx"/>
                             <constraint firstItem="jBS-Jz-m21" firstAttribute="leading" relation="lessThanOrEqual" secondItem="meH-ld-J0P" secondAttribute="leading" constant="45" id="h0a-c3-N4M"/>
-                            <constraint firstItem="meH-ld-J0P" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="tCw-j4-8PY" secondAttribute="trailing" constant="90" id="oiI-TC-z3a">
-                                <variation key="heightClass=regular-widthClass=compact" constant="50"/>
+                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="tCw-j4-8PY" secondAttribute="trailing" constant="90" id="oiI-TC-z3a">
+                                <variation key="heightClass=compact-widthClass=regular" constant="247"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="69"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="250"/>
                             </constraint>
                             <constraint firstItem="meH-ld-J0P" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="jBS-Jz-m21" secondAttribute="trailing" constant="45" id="uzW-eb-Xoj"/>
                             <constraint firstItem="3oY-wG-KIO" firstAttribute="centerX" secondItem="s48-OP-K4y" secondAttribute="centerX" id="vCg-9Y-J6t"/>
                             <constraint firstItem="3oY-wG-KIO" firstAttribute="centerY" secondItem="meH-ld-J0P" secondAttribute="centerY" multiplier="1.05" constant="-178" id="x5v-T4-E22">
-                                <variation key="heightClass=compact-widthClass=compact" constant="-90"/>
-                                <variation key="heightClass=compact-widthClass=regular" constant="-95"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="-16"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="-40"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="-70"/>
                             </constraint>
                             <constraint firstItem="3oY-wG-KIO" firstAttribute="leading" relation="lessThanOrEqual" secondItem="meH-ld-J0P" secondAttribute="leading" constant="55.670000000000002" id="xT6-0L-Udr"/>
